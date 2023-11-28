@@ -12,7 +12,6 @@ const getDriversId = async (id) => {
 
 
         const { data } = await axios(`${URL}/${id}`);
-        let driverFound = null;
 
         const driver = {
             id,
